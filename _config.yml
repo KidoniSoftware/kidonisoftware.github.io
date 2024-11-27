@@ -25,17 +25,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kidoni.dev" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  raysuliteanu
+github_username: raysuliteanu
 
 # Build settings
-#remote_theme: pages-themes/minimal@v0.2.0
-#plugins:
-#- jekyll-remote-theme 
-
-theme: minimal
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-feed
-  
+  - jekyll-remote-theme
 # add this line to the plugins list if you already have one
 # Exclude from processing.
 # The following items will not be processed, by default.
