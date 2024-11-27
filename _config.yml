@@ -28,10 +28,14 @@ url: "https://kidoni.dev" # the base hostname & protocol for your site, e.g. htt
 github_username:  raysuliteanu
 
 # Build settings
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme 
+#remote_theme: pages-themes/minimal@v0.2.0
+#plugins:
+#- jekyll-remote-theme 
 
+theme: minimal
+plugins:
+  - jekyll-feed
+  
 # add this line to the plugins list if you already have one
 # Exclude from processing.
 # The following items will not be processed, by default.
