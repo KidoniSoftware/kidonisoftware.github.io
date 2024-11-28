@@ -1,0 +1,11 @@
+[book]
+authors = ["Ray Suliteanu"]
+language = "en"
+multilingual = false
+src = "src"
+title = "kidoni.dev blog"
+
+[output.html]
+no-section-label = true
+cname = "kidoni.dev"
+input-404 = "not-found.md"
